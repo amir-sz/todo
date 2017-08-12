@@ -5,8 +5,8 @@ import { LIST } from './todo-list';
 @Injectable()
 export class ItemService {
 
-    getItems(): Todo[] {
-        return LIST;
+    getItems(): Promise<Todo[]> {
+        return Promise.resolve(LIST);
     }
 
 }
