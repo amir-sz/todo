@@ -1,0 +1,66 @@
+h2 {
+    color: #999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+.app-front {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 10px;
+    width: 30em;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+}
+.app-front li {
+    position: relative;
+    left: 0;
+    border: solid 1px #EEE;
+    margin: .5em;
+    padding: 10px 8px 0 14px;
+    height: 1.6em;
+    border-radius: 2px;
+    background-color: #fff;
+    font-size: 18px;
+    transition: 0.2s;
+    display: block;
+}
+.app-front li label {
+    float: left;
+}
+.app-front li input {
+    float: right;
+}
+.app-front li:nth-child(odd) {
+    background-color: rgba(48, 48, 48, 0.5);
+    border: solid 1px #eee;
+    color: #fff;
+}
+.addtodo {
+    left: 0;
+    margin: .5em;
+}
+.addtodo input {
+    position: relative;
+    border: solid 1px #eee;
+    padding: 8px;
+    font-size: 16px;
+    width: 79%;
+}
+.addtodo input:focus {
+    outline: none;
+}
+.addtodo button {
+    height: 35px;
+    width: 36px;
+    border: 1px solid #eee;
+    background-color: #fff;
+    transition: ease all 0.3s;
+    -webkit-transition: ease all 0.3s;
+}
+.addtodo button:hover {
+    cursor: pointer;
+    transition: ease all 0.3s;
+    -webkit-transition: ease all 0.3s;
+    background-color: #999;
+    color: #ddd;
+}
