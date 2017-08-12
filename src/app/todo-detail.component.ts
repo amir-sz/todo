@@ -6,10 +6,10 @@ import { Todo } from './todo';
     template: `
     <div *ngIf="item">
     <h2>{{item.title}}!</h2>
-    <div><label>id: </label>{{item.id}}</div>
+    <div><label>Id: </label>{{item.id}}</div>
     <div>
-        <label>title: </label>
-        <input [(ngModel)]="item.title" placeholder="Title"/>
+        <label>Description: </label>
+        {{item.title}}
     </div>
     </div>
     `

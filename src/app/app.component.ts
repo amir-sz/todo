@@ -4,7 +4,12 @@ import { Component } from '@angular/core';
     selector: 'app-root',
     template: `
     <h2> {{ AppTitle }}! </h2>
-    <my-items></my-items>
+   
+<nav>
+    <a routerLink="/items">Todo List</a>
+    <a routerLink="/details">Detail view</a>
+    <router-outlet></router-outlet>
+</nav>
     `,
     styles: [`
         h2 {

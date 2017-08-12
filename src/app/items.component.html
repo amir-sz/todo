@@ -6,7 +6,7 @@
     </button>
   </div>
   <li *ngFor="let item of items" (click)="onSelect(item)">
-      <label>{{item.title}}</label>      <input type="radio" name="" value=""><br>
+      <label>{{item.title}}</label>      <input type="radio" name="todo" value=""><br>
   </li>
 </ul>
 <item-detail [item]="selectedItem"></item-detail>
