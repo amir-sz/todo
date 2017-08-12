@@ -30,11 +30,11 @@ h2 {
 .app-front li input {
     float: right;
 }
-.app-front li:nth-child(odd) {
-    background-color: rgba(48, 48, 48, 0.5);
+/*.app-front li:nth-child(odd) {
+    background-color: #34495e;
     border: solid 1px #eee;
     color: #fff;
-}
+}*/
 .addtodo {
     left: 0;
     margin: .5em;

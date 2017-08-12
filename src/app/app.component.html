@@ -10,13 +10,8 @@
      +
     </button>
   </div>
-  <li >
-      <label>{{item}}</label>      <input type="radio" name="gender" value="male"><br>
+  <li *ngFor="let item of items" (click)="onSelect(item)">
+      <label>{{item.title}}</label>      <input type="radio" name="" value=""><br>
   </li>
-  <li >
-    <label>{{item}}</label>      <input type="radio" name="gender" value="male"><br>
-</li>
-<li >
-  <label>{{item}}</label>      <input type="radio" name="gender" value="male"><br>
-</li>
 </ul>
+<item-detail [item]="selectedItem"></item-detail>
